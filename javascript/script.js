@@ -1,4 +1,5 @@
 function forWater() {
+  console.log("Changing h1 and p using onclick");
   var paragraphChange = document.getElementById("carrot");
       paragraphChange.textContent = "this is a new paragraph";
 
@@ -8,4 +9,5 @@ function forWater() {
 
 /* var x = 5; var y = 12; var result = x + y; console.log(result); */
 // COMMENT 
+
 
