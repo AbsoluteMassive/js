@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  margin:0;
+  padding: 10px;
+}    
+.calculator input {
+  padding: 3px;
+  width: auto;
+  margin: 1px;
+  font-size: 1rem;
+  border: 2px solid black;
+  text-align: center;
+}
+p {
+ margin: 5px;
+}
+#container {
+  padding: 10px;
+  display: inline-block;
+  width: auto;
+  border: 2px solid black;
+  min-width: 220px;
+  max-width: 300px;
+  height: auto;
+ 
+}
+button {
+  cursor: pointer;
+  margin: 1px;
+  padding: 1px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  transition: background-color 0.5s ease; 
+}
+button:hover {
+  background-color: red;
+}
+#result {
+  font-size: 1.25rem;
+}
+      
