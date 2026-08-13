@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<style>
+#btnLightToDark {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px;
+  }
+body.dark-mode {
+    background-color: #121212;
+    color: #eee;
+    }
+.dark-mode button {
+   background-color: #222;
+   color: red;
+}
+.dark-mode input[type="text"] {
+  background: black;
+  color: white;
+}
+
+</style>
+<body>
+    <input type="text" id="input-field" placeholder="Type it here">
+    <button id="btn">Add Task</button>
+    <ul id="output"></ul>
+    <button id="btnLightToDark">Dark Mode</button>
+    <script src="script.js"></script>
+</body>
+</html>
